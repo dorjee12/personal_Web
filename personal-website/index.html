@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dorji | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- ===== Header ===== -->
+    <header>
+        <div class="container">
+            <!-- Logo -->
+            <a href="#" class="logo">
+                <div class="logo-circle">
+                    <img src="logo.png" alt="Dorji Logo">
+                </div>
+                <span>Personal Profile</span>
+            </a>
+        <div class="menu-toggle" id="menu-toggle">
+    ☰
+</div>    
+
+            <!-- Navigation -->
+            <nav>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#experience">Experience</a>
+                <a href="#cv">CV</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ===== Hero Section ===== -->
+    <section class="hero fade-in">
+        <div class="container hero-content">
+            <div class="profile-pic-container">
+                <img src="profile.jpg" alt="Dorji Profile Picture" class="profile-pic">
+            </div>
+
+            <h2>Hi, I'm <span id="typing"></span></h2>
+            <p class="edu-text">Pursuing a Bachelor’s degree in Data Science</p>
+
+            <!-- ===== FIXED EDUCATION SECTION ===== -->
+            <div class="education-section">
+                <div class="edu-left">
+
+                    <!-- TEXT + CAP IN SAME LINE -->
+                    <div class="college-row">
+                        <p class="college-text">Sherubtse College</p>
+                        <img src="cap.png" class="cap-pic">
+                    </div>
+
+                    <!-- UNIVERSITY TEXT -->
+                    <p class="edu-text">University Of Bhutan</p>
+                </div>
+            </div>
+
+            <a href="#projects" class="btn btn-primary">View My Work</a>
+        </div>
+    </section>
+
+    <!-- ===== About Section ===== -->
+    <section id="about" class="about fade-in">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>
+                I am Dorji, a student at Sherubtse College under the Royal University of Bhutan, currently pursuing a Bachelor’s degree in Data Science. I have a strong interest in exploring emerging AI technologies and continuously expanding my knowledge in this field. I am passionate about learning, building, and applying data-driven solutions to real-world problems.
+            </p>
+        </div>
+    </section>
+
+    <!-- ===== Projects Section ===== -->
+    <section id="projects" class="projects fade-in">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>AI-Driven Stock price prediction, Recomendation and Inverstor Assistant System</h3>
+                    <p>Developed system using python mainly Machine Learning, Deep learining and Natural language Processing Models</p>
+                </div>
+                <div class="project-card">
+                    <h3>Dzongkha Sign Language Detection</h3>
+                    <p>To develop an AI-based system that can recognize and interpret Dzongkha sign language gestures into readable text or speech, enabling effective communication between hearing-impaired individuals and the general public.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Fake News Detection system</h3>
+                    <p>This project is to design and develop an intelligent fake news detection system using Natural Language Processing techniques that can automatically classify news content as fake or real, thereby helping to reduce misinformation and improve trust in digital media.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Experience Section ===== -->
+    <section id="experience" class="experience fade-in">
+        <div class="container">
+            <h2>Experience</h2>
+
+            <div class="experience-timeline">
+                <div class="experience-item">
+                    <h3>Two-Month Internship in BOB</h3>
+                    <span class="experience-date">2025-2026</span>
+                    <p>
+                        During my internship at Bank of Bhutan in the Human Resources Division, I gained experience in HR analytical working and improved my skills in Microsoft Excel and Python for data cleaning, reporting, and visualization, time management, and confidentiality in a professional workplace.
+                    </p>
+                </div>
+
+                <div class="experience-item">
+                    <h3>Academic Projects</h3>
+                    <span class="experience-date">2022-2026</span>
+                    <p>
+                        Stocks price prediction using machine learning, Dzongkha Sign Language Detection, and Fake News Detection System.
+                    </p>
+                </div>
+
+                <div class="experience-item">
+                    <h3>Self-Learning & Practice</h3>
+                    <span class="experience-date">2022-Present</span>
+                    <p>
+                        Continuously learning and practicing emerging AI technologies, including machine learning, deep learning, and natural language processing,and personal projects to enhance my skills and stay updated in the field of data science.
+                        Full-Stack Web Development using HTML, CSS, JavaScript, and ReactJS.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CV Section ===== -->
+    <section id="cv" class="cv fade-in">
+        <div class="container cv-content">
+            <h2>MY CV</h2>
+            <a href="Droji_cv.pdf" download class="btn btn-primary">Download CV</a>
+        </div>
+    </section>
+
+    <!-- ===== Contact Section ===== -->
+    <section id="contact" class="contact fade-in">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- ===== Footer ===== -->
+    <footer>
+        <div class="container">
+            <p>© 2025 Dorji. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <button id="back-to-top">↑</button>
+
+    <!-- ✅ Dark Mode Button moved to bottom -->
+    <button id="dark-mode-toggle">🌙</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
