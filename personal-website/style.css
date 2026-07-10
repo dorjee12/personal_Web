@@ -154,17 +154,50 @@ section {
     margin-bottom: 1.5rem;
 }
 
-/* ===== Contact ===== */
-form {
-    max-width: 400px;
-    margin: auto;
+
+/* ===== Contact Section ===== */
+
+.contact {
+    padding: 80px 20px;
+    text-align: center;
 }
 
-form input,
-form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-top: 10px;
+.contact h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.contact-info {
+    display: inline-block;
+    text-align: left;
+    padding: 25px 35px;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.contact-info p {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 18px 0;
+    font-size: 18px;
+}
+
+.contact-icon {
+    width: 26px;
+    height: 26px;
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: inherit;
+    transition: 0.3s;
+}
+
+.contact-info a:hover {
+    color: #0077ff;
 }
 
 /* ===== Footer ===== */
